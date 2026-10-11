@@ -90,7 +90,7 @@ git annex initremote "$REMOTE" \
   host="${ENDPOINT}" \
   public=yes \
   publicurl="$ENDPOINT/$BUCKET" \
-  host=object-arbutus.cloud.computecanada.ca \
+  host=object-arbutus.alliancecan.ca \
   protocol=https \
   requeststyle=path \
   autoenable=true

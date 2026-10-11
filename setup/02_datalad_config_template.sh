@@ -6,7 +6,7 @@
 export AWS_ACCESS_KEY_ID="YOUR_KEY_ID"                                  # from output of `openstack ec2 credentials create`, or provided by Arbutus project admininstrator
 export AWS_SECRET_ACCESS_KEY="YOUR_SECRET_KEY"                          # from output of `openstack ec2 credentials create`, or provided by Arbutus project admininstrator
 export AWS_DEFAULT_REGION="ca-west-1"                                   # do not modify this unless you are sure that you know what you are doing
-export S3_ENDPOINT_URL="https://object-arbutus.cloud.computecanada.ca"  # do not modify this unless you are sure that you know what you are doing
+export S3_ENDPOINT_URL="https://object-arbutus.alliancecan.ca"  # do not modify this unless you are sure that you know what you are doing
 export S3_BUCKET_NAME="UNIQUE_BUCKET_NAME"                              # bucket name must be unique within endpoint namespace
 # export GITHUB_ORGANIZATION="YOUR_GITHUB_ORGANIZATION"                 # do not set this if you forked into your personal GitHub account
 export GITHUB_REPO_NAME_LOCAL="UNIQUE_REPO_NAME"                        # repo name must be unique within the GitHub organization namespace
